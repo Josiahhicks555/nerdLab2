@@ -34,17 +34,7 @@ namespace Nerd_Labyrinth_2
                 NewPlayer.Add(new NewPlayer(playerName, playerAge, 0, newPlayer));
 
 
-                foreach (var nextPlayer in NewPlayer)
-                {
-                    Console.WriteLine($"Player Number: {nextPlayer.PlayerNumber} || Player Name: {nextPlayer.Name} || Player Age: {nextPlayer.Age}");
-                }
-
-                for (int h = 0; h == Health; h++)
-                {
-                    string playerHealth = "Health" + (h + 100);
-                    Console.WriteLine($"Player {p + 1} Your health is {h + 100}");
-                  
-                }
+                
             }
 
         }
@@ -71,3 +61,6 @@ namespace Nerd_Labyrinth_2
 
     }
 }
+
+
+
